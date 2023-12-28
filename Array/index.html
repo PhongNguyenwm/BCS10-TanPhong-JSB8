@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- MainCSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    
+    <!-- Các button và textarea cho từng chức năng -->
+    <div class="result-container">
+      <label for="inputArray">Nhập mảng số (cách nhau bởi dấu phẩy):</label>
+      <input type="text" id="inputArray" />
+
+      <button onclick="calculate(1)">1. Tổng các số dương</button>
+      <span id="result1"></span>
+
+      <button onclick="calculate(2)">2. Số lượng số dương</button>
+      <span id="result2"></span>
+      
+      <button onclick="calculate(3)">3. Số nhỏ nhất trong mảng</button>
+      <span id="result3"></span>
+      
+      <button onclick="calculate(4)">4. Số dương nhỏ nhất trong mảng</button>
+      <span id="result4"></span>
+      
+      <button onclick="calculate(5)">Số chẵn cuối cùng trong mảng</button>
+      <span id="result5"></span>
+      
+      <button onclick="calculate(6)">6. Đổi chỗ 2 giá trị theo vị trí</button>
+      <textarea id="result6" readonly></textarea>
+
+      <button onclick="calculate(7)">7. Sắp xếp mảng</button>
+      <span id="result7"></span>
+      
+      <button onclick="calculate(8)">8. Số nguyên tố đầu tiên trong mảng</button>
+      <span id="result8"></span>
+      
+      <button onclick="calculate(9)">Số lượng số nguyên trong mảng số thực</button>
+      <span id="result9"></span>
+      
+      <button onclick="calculate(10)">10. So sánh số lượng số dương và số âm</button>
+      <span id="result10"></span>
+    
+    <!-- Main Js -->
+    <script src="./js/index.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
